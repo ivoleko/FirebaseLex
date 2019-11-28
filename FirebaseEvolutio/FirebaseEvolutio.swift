@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import FirebaseCore
-import Crashlytics
+import Firebase
+
 
 

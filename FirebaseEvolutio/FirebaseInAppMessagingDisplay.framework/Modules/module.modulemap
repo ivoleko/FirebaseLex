@@ -1,0 +1,5 @@
+framework module FirebaseInAppMessagingDisplay {
+umbrella header "FirebaseInAppMessagingDisplay.h"
+export *
+module * { export * }
+}

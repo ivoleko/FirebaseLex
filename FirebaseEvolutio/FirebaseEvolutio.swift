@@ -7,13 +7,6 @@
 //
 
 import Foundation
-import FirebaseAnalytics
-import Crashlytics
-import FirebaseMessaging
-import FirebaseInAppMessaging
-import FirebaseInAppMessagingDisplay
-import FirebaseCore
-import FirebaseInstanceID
-
+import Firebase
 
 

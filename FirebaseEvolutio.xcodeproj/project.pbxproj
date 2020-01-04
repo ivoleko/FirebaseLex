@@ -22,7 +22,7 @@
 		D713209D23C1298A00CE7BDE /* InAppMessagingDisplayResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D713209C23C1298A00CE7BDE /* InAppMessagingDisplayResources.bundle */; };
 		D713209F23C1299500CE7BDE /* FirebaseMessaging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D713209E23C1299500CE7BDE /* FirebaseMessaging.framework */; };
 		D71320A123C129A600CE7BDE /* Protobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D71320A023C129A600CE7BDE /* Protobuf.framework */; };
-		D71320A323C129B800CE7BDE /* Firebase.h in Headers */ = {isa = PBXBuildFile; fileRef = D71320A223C129B800CE7BDE /* Firebase.h */; };
+		D71320A323C129B800CE7BDE /* Firebase.h in Headers */ = {isa = PBXBuildFile; fileRef = D71320A223C129B800CE7BDE /* Firebase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D7C345B22390616600E22E18 /* FirebaseEvolutio.h in Headers */ = {isa = PBXBuildFile; fileRef = D7C345B02390616600E22E18 /* FirebaseEvolutio.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D7C345E6239061C000E22E18 /* FirebaseEvolutio.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C345E5239061C000E22E18 /* FirebaseEvolutio.swift */; };
 /* End PBXBuildFile section */

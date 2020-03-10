@@ -18,29 +18,15 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-/// Stores a date to a specified file.
-@interface FIRCoreDiagnosticsDateFileStorage : NSObject
+/** The class represents a result of the auth token request. */
+NS_SWIFT_NAME(InstallationsAuthTokenResult)
+@interface FIRInstallationsAuthTokenResult : NSObject
 
-- (instancetype)init NS_UNAVAILABLE;
+/** The authorization token string. */
+@property(nonatomic, readonly) NSString *authToken;
 
-/**
- * Default initializer.
- * @param fileURL The URL of the file to store the date. The directory must exist, the file may not
- * exist, it will be created if needed.
- */
-- (instancetype)initWithFileURL:(NSURL *)fileURL;
-
-/**
- * Saves the date to the specified file.
- * @return YES on success, NO otherwise.
- */
-- (BOOL)setDate:(nullable NSDate *)date error:(NSError **)outError;
-
-/**
- * Reads the date to the specified file.
- * @return Returns date if exists, otherwise `nil`.
- */
-- (nullable NSDate *)date;
+/** The auth token expiration date. */
+@property(nonatomic, readonly) NSDate *expirationDate;
 
 @end
 

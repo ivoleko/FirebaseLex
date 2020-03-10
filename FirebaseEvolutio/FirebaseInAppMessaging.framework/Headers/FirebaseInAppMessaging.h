@@ -1,5 +1,5 @@
 /*
- * Copyright 2019 Google
+ * Copyright 2020 Google
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,3 +16,7 @@
 
 #import "FIRInAppMessaging.h"
 #import "FIRInAppMessagingRendering.h"
+
+#if __has_include(<FirebaseInAppMessagingDisplay/FirebaseInAppMessagingDisplay.h>)
+#warning The FirebaseInAppMessagingDisplay subspec is deprecated. Please remove FirebaseInAppMessagingDisplay from your Podfile (or delete the framework).
+#endif

@@ -91,6 +91,7 @@ NS_SWIFT_NAME(InAppMessagingImageData)
 
 /** Defines the metadata for the campaign to which a FIAM message belongs.
  */
+NS_SWIFT_NAME(InAppMessagingCampaignInfo)
 @interface FIRInAppMessagingCampaignInfo : NSObject
 
 /**
@@ -130,13 +131,14 @@ NS_SWIFT_NAME(InAppMessagingAction)
 /**
  * The URL to follow if the action is clicked.
  */
-@property(nonatomic, nonnull, copy, readonly) NSURL *actionURL;
+@property(nonatomic, nullable, copy, readonly) NSURL *actionURL;
 
 /// Unavailable.
 - (instancetype)init NS_UNAVAILABLE;
 
 /// This class should only be initialized from a custom in-app message UI component implementation.
-- (instancetype)initWithActionText:(nullable NSString *)actionText actionURL:(NSURL *)actionURL;
+- (instancetype)initWithActionText:(nullable NSString *)actionText
+                         actionURL:(nullable NSURL *)actionURL;
 
 @end
 
@@ -161,6 +163,11 @@ NS_SWIFT_NAME(InAppMessagingDisplayMessage)
  * How this message should be triggered.
  */
 @property(nonatomic, readonly) FIRInAppMessagingDisplayTriggerType triggerType;
+
+/**
+ * Extra key-value dictionary data that can be sent along with the message
+ */
+@property(nonatomic, nullable, readonly) NSDictionary *appData;
 
 /// Unavailable.
 - (instancetype)init NS_UNAVAILABLE;
@@ -214,7 +221,7 @@ NS_SWIFT_NAME(InAppMessagingCardDisplay)
 /**
  * The action URL for a card FIAM message's primary action button.
  */
-@property(nonatomic, nonnull, readonly) NSURL *primaryActionURL;
+@property(nonatomic, nullable, readonly) NSURL *primaryActionURL;
 
 /**
  * Metadata for a card FIAM message's secondary action button.

@@ -33,7 +33,7 @@
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
-			dstSubfolderSpec = 7;
+			dstSubfolderSpec = 16;
 			files = (
 				D72D33E5241C1FEE0035284A /* InAppMessagingDisplayResources.bundle in CopyFiles */,
 			);

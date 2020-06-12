@@ -26,11 +26,8 @@
 		D76D1FBB249399B600E1602D /* InAppMessagingDisplayResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D76D1FBA249399B600E1602D /* InAppMessagingDisplayResources.bundle */; };
 		D76D1FBD249399C900E1602D /* FirebaseMessaging.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D76D1FBC249399C900E1602D /* FirebaseMessaging.xcframework */; };
 		D76D1FBF249399D700E1602D /* FirebaseInstanceID.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D76D1FBE249399D700E1602D /* FirebaseInstanceID.xcframework */; };
-		D76D1FC124939ABF00E1602D /* InAppMessagingDisplayResources.bundle in Embed PlugIns */ = {isa = PBXBuildFile; fileRef = D76D1FBA249399B600E1602D /* InAppMessagingDisplayResources.bundle */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D76D1FC524939C7100E1602D /* FirebaseCrashlytics.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D76D1FC424939C7100E1602D /* FirebaseCrashlytics.xcframework */; };
 		D76D1FC924939CE000E1602D /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D76D1FC824939CE000E1602D /* libc++.tbd */; };
-		D76D1FD02493A47700E1602D /* run in Resources */ = {isa = PBXBuildFile; fileRef = D76D1FCF2493A47700E1602D /* run */; };
-		D76D1FD22493A49D00E1602D /* upload-symbols in Resources */ = {isa = PBXBuildFile; fileRef = D76D1FD12493A49D00E1602D /* upload-symbols */; };
 		D7C345B22390616600E22E18 /* FirebaseLex.h in Headers */ = {isa = PBXBuildFile; fileRef = D7C345B02390616600E22E18 /* FirebaseLex.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -39,20 +36,9 @@
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
-			dstSubfolderSpec = 7;
+			dstSubfolderSpec = 15;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D76D1FC224939ABF00E1602D /* Embed PlugIns */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				D76D1FC124939ABF00E1602D /* InAppMessagingDisplayResources.bundle in Embed PlugIns */,
-			);
-			name = "Embed PlugIns";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -79,8 +65,6 @@
 		D76D1FC424939C7100E1602D /* FirebaseCrashlytics.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FirebaseCrashlytics.xcframework; sourceTree = "<group>"; };
 		D76D1FC624939CD100E1602D /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		D76D1FC824939CE000E1602D /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
-		D76D1FCF2493A47700E1602D /* run */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = run; sourceTree = "<group>"; };
-		D76D1FD12493A49D00E1602D /* upload-symbols */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "upload-symbols"; sourceTree = "<group>"; };
 		D7B09CDF2417DC2800CECF87 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		D7C345AD2390616600E22E18 /* FirebaseLex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FirebaseLex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7C345B02390616600E22E18 /* FirebaseLex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirebaseLex.h; sourceTree = "<group>"; };
@@ -149,8 +133,6 @@
 				D7C345B02390616600E22E18 /* FirebaseLex.h */,
 				D7C345E5239061C000E22E18 /* FirebaseLex.swift */,
 				D71320A223C129B800CE7BDE /* Firebase.h */,
-				D76D1FD12493A49D00E1602D /* upload-symbols */,
-				D76D1FCF2493A47700E1602D /* run */,
 				D7B09CDF2417DC2800CECF87 /* module.modulemap */,
 				D76D1FC424939C7100E1602D /* FirebaseCrashlytics.xcframework */,
 				D76D1FBA249399B600E1602D /* InAppMessagingDisplayResources.bundle */,
@@ -199,7 +181,6 @@
 				D7C345AA2390616600E22E18 /* Frameworks */,
 				D7C345AB2390616600E22E18 /* Resources */,
 				D72D33E4241C1FE20035284A /* CopyFiles */,
-				D76D1FC224939ABF00E1602D /* Embed PlugIns */,
 			);
 			buildRules = (
 			);
@@ -217,7 +198,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1120;
-				ORGANIZATIONNAME = "Evolutio IT";
+				ORGANIZATIONNAME = "Ivo Leko";
 				TargetAttributes = {
 					D7C345AC2390616600E22E18 = {
 						CreatedOnToolsVersion = 11.2.1;
@@ -248,8 +229,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D76D1FD22493A49D00E1602D /* upload-symbols in Resources */,
-				D76D1FD02493A47700E1602D /* run in Resources */,
 				D76D1FBB249399B600E1602D /* InAppMessagingDisplayResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -392,8 +371,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -414,6 +394,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ivoleko.FirebaseLex;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/FirebaseLex";
@@ -428,8 +409,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -450,6 +432,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ivoleko.FirebaseLex;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/FirebaseLex";

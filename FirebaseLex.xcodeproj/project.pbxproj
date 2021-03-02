@@ -13,11 +13,8 @@
 		D72B81EE253600E900A1E34C /* GoogleDataTransport.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D72B81E4253600E700A1E34C /* GoogleDataTransport.xcframework */; };
 		D72B81EF253600E900A1E34C /* GoogleUtilities.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D72B81E5253600E700A1E34C /* GoogleUtilities.xcframework */; };
 		D72B81F0253600E900A1E34C /* nanopb.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D72B81E6253600E700A1E34C /* nanopb.xcframework */; };
-		D72B81F1253600E900A1E34C /* GoogleAppMeasurement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D72B81E7253600E800A1E34C /* GoogleAppMeasurement.framework */; };
 		D72B81F2253600E900A1E34C /* FirebaseCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D72B81E8253600E800A1E34C /* FirebaseCore.xcframework */; };
-		D72B81F3253600E900A1E34C /* FIRAnalyticsConnector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D72B81E9253600E800A1E34C /* FIRAnalyticsConnector.framework */; };
 		D72B81F4253600E900A1E34C /* PromisesObjC.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D72B81EA253600E900A1E34C /* PromisesObjC.xcframework */; };
-		D72B81F5253600E900A1E34C /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D72B81EB253600E900A1E34C /* FirebaseAnalytics.framework */; };
 		D72B81F8253600F200A1E34C /* FirebaseCrashlytics.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D72B81F7253600F200A1E34C /* FirebaseCrashlytics.xcframework */; };
 		D72B81FC2536011200A1E34C /* FirebaseInAppMessaging.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D72B81FA2536011200A1E34C /* FirebaseInAppMessaging.xcframework */; };
 		D72B81FD2536011200A1E34C /* FirebaseABTesting.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D72B81FB2536011200A1E34C /* FirebaseABTesting.xcframework */; };
@@ -27,6 +24,8 @@
 		D76D1F9B249397E900E1602D /* FirebaseLex.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C345E5239061C000E22E18 /* FirebaseLex.swift */; };
 		D76D1FBB249399B600E1602D /* InAppMessagingDisplayResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D76D1FBA249399B600E1602D /* InAppMessagingDisplayResources.bundle */; };
 		D76D1FC924939CE000E1602D /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D76D1FC824939CE000E1602D /* libc++.tbd */; };
+		D796149225EE2B80008C92E4 /* FirebaseAnalytics.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D796149125EE2B80008C92E4 /* FirebaseAnalytics.xcframework */; };
+		D796149525EE2BB9008C92E4 /* GoogleAppMeasurement.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D796149425EE2BB9008C92E4 /* GoogleAppMeasurement.xcframework */; };
 		D7C345B22390616600E22E18 /* FirebaseLex.h in Headers */ = {isa = PBXBuildFile; fileRef = D7C345B02390616600E22E18 /* FirebaseLex.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -49,11 +48,8 @@
 		D72B81E4253600E700A1E34C /* GoogleDataTransport.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleDataTransport.xcframework; sourceTree = "<group>"; };
 		D72B81E5253600E700A1E34C /* GoogleUtilities.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleUtilities.xcframework; sourceTree = "<group>"; };
 		D72B81E6253600E700A1E34C /* nanopb.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = nanopb.xcframework; sourceTree = "<group>"; };
-		D72B81E7253600E800A1E34C /* GoogleAppMeasurement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleAppMeasurement.framework; sourceTree = "<group>"; };
 		D72B81E8253600E800A1E34C /* FirebaseCore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FirebaseCore.xcframework; sourceTree = "<group>"; };
-		D72B81E9253600E800A1E34C /* FIRAnalyticsConnector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FIRAnalyticsConnector.framework; sourceTree = "<group>"; };
 		D72B81EA253600E900A1E34C /* PromisesObjC.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = PromisesObjC.xcframework; sourceTree = "<group>"; };
-		D72B81EB253600E900A1E34C /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseAnalytics.framework; sourceTree = "<group>"; };
 		D72B81F7253600F200A1E34C /* FirebaseCrashlytics.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FirebaseCrashlytics.xcframework; sourceTree = "<group>"; };
 		D72B81FA2536011200A1E34C /* FirebaseInAppMessaging.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FirebaseInAppMessaging.xcframework; sourceTree = "<group>"; };
 		D72B81FB2536011200A1E34C /* FirebaseABTesting.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FirebaseABTesting.xcframework; sourceTree = "<group>"; };
@@ -63,6 +59,8 @@
 		D76D1FBA249399B600E1602D /* InAppMessagingDisplayResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = InAppMessagingDisplayResources.bundle; sourceTree = "<group>"; };
 		D76D1FC624939CD100E1602D /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		D76D1FC824939CE000E1602D /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		D796149125EE2B80008C92E4 /* FirebaseAnalytics.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FirebaseAnalytics.xcframework; sourceTree = "<group>"; };
+		D796149425EE2BB9008C92E4 /* GoogleAppMeasurement.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleAppMeasurement.xcframework; sourceTree = "<group>"; };
 		D7B09CDF2417DC2800CECF87 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		D7C345AD2390616600E22E18 /* FirebaseLex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FirebaseLex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7C345B02390616600E22E18 /* FirebaseLex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirebaseLex.h; sourceTree = "<group>"; };
@@ -77,18 +75,17 @@
 			files = (
 				D72B81EF253600E900A1E34C /* GoogleUtilities.xcframework in Frameworks */,
 				D72B81F2253600E900A1E34C /* FirebaseCore.xcframework in Frameworks */,
+				D796149525EE2BB9008C92E4 /* GoogleAppMeasurement.xcframework in Frameworks */,
 				D72B81EC253600E900A1E34C /* FirebaseCoreDiagnostics.xcframework in Frameworks */,
 				D76D1FC924939CE000E1602D /* libc++.tbd in Frameworks */,
 				D72B82022536012900A1E34C /* FirebaseMessaging.xcframework in Frameworks */,
-				D72B81F3253600E900A1E34C /* FIRAnalyticsConnector.framework in Frameworks */,
 				D72B81F0253600E900A1E34C /* nanopb.xcframework in Frameworks */,
-				D72B81F1253600E900A1E34C /* GoogleAppMeasurement.framework in Frameworks */,
+				D796149225EE2B80008C92E4 /* FirebaseAnalytics.xcframework in Frameworks */,
 				D72B82032536012900A1E34C /* FirebaseInstanceID.xcframework in Frameworks */,
 				D72B81FC2536011200A1E34C /* FirebaseInAppMessaging.xcframework in Frameworks */,
 				D72B81FD2536011200A1E34C /* FirebaseABTesting.xcframework in Frameworks */,
 				D72B81EE253600E900A1E34C /* GoogleDataTransport.xcframework in Frameworks */,
 				D72B81F8253600F200A1E34C /* FirebaseCrashlytics.xcframework in Frameworks */,
-				D72B81F5253600E900A1E34C /* FirebaseAnalytics.framework in Frameworks */,
 				D72B81ED253600E900A1E34C /* FirebaseInstallations.xcframework in Frameworks */,
 				D72B82042536012900A1E34C /* Protobuf.xcframework in Frameworks */,
 				D72B81F4253600E900A1E34C /* PromisesObjC.xcframework in Frameworks */,
@@ -131,18 +128,17 @@
 				D7C345E5239061C000E22E18 /* FirebaseLex.swift */,
 				D71320A223C129B800CE7BDE /* Firebase.h */,
 				D7B09CDF2417DC2800CECF87 /* module.modulemap */,
+				D796149425EE2BB9008C92E4 /* GoogleAppMeasurement.xcframework */,
+				D796149125EE2B80008C92E4 /* FirebaseAnalytics.xcframework */,
 				D72B82002536012800A1E34C /* FirebaseInstanceID.xcframework */,
 				D72B81FF2536012800A1E34C /* FirebaseMessaging.xcframework */,
 				D72B82012536012800A1E34C /* Protobuf.xcframework */,
 				D72B81FB2536011200A1E34C /* FirebaseABTesting.xcframework */,
 				D72B81FA2536011200A1E34C /* FirebaseInAppMessaging.xcframework */,
 				D72B81F7253600F200A1E34C /* FirebaseCrashlytics.xcframework */,
-				D72B81E9253600E800A1E34C /* FIRAnalyticsConnector.framework */,
-				D72B81EB253600E900A1E34C /* FirebaseAnalytics.framework */,
 				D72B81E8253600E800A1E34C /* FirebaseCore.xcframework */,
 				D72B81E2253600E700A1E34C /* FirebaseCoreDiagnostics.xcframework */,
 				D72B81E3253600E700A1E34C /* FirebaseInstallations.xcframework */,
-				D72B81E7253600E800A1E34C /* GoogleAppMeasurement.framework */,
 				D72B81E4253600E700A1E34C /* GoogleDataTransport.xcframework */,
 				D72B81E5253600E700A1E34C /* GoogleUtilities.xcframework */,
 				D72B81E6253600E700A1E34C /* nanopb.xcframework */,

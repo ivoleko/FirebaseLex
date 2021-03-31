@@ -1,5 +1,5 @@
 # FirebaseLex
-Wrapper framework that encapsulates several most commonly used Firebase frameworks (Crashlytics, Analytics, Messaging, Core, InstanceID and InAppMessaging) available for Carthage.
+Wrapper framework that encapsulates several most commonly used Firebase frameworks (Crashlytics, Analytics, Messaging, Core, RemoteConfig, InstanceID and InAppMessaging) available for Carthage.
 
 ## Instructions
 1. Specify in your Cartfile:
